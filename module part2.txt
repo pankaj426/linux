@@ -1,0 +1,41 @@
+demo
+
+from calc import sum
+def fun1():
+    sum()
+    print("fund1")
+
+
+def fun2():
+    print("fun2")
+
+
+def main():
+    fun2()
+    fun2()
+
+
+main()
+sum()
+
+
+cals
+
+
+
+
+def sum():
+    print("result1",__name__)
+
+def sub():
+    print("result2")
+
+
+def main():
+    sum()
+    sub()
+
+if __name__ == '__main__':
+    main()
+
+

@@ -1,0 +1,21 @@
+ count=10
+
+ if [ $count -eq 13]
+
+ then
+         echo fail
+ else
+         echo pass
+
+
+ fi
+
+
+
+
+
+
+
+-ne
+-gt
+lt,le,<,=>,=,==,

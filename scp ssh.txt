@@ -1,0 +1,25 @@
+      SSH cooamd      
+
+
+       ssh
+    4  ssh user@ip -p22
+    5  ssh localhost
+    6  sudo apt-get install open ssh-server
+    7  sudo apt-get install-server
+    8  sudo apt-get install openssh-server
+    9  sudo service ssh status
+   10  ssh localhost
+   11  sudo ssh localhost
+   12  sudo gedit /etc/ssh/sshd_config
+   13  sudo vi  /etc/ssh/sshd_config
+
+      SCP COMMAND
+  
+   15  scp
+   16  pwd
+   17  vi index.txt
+   18* scp -r index.txt ubuntu@172.31.58.242:/home/ubuntu
+   19  scp ubuntu@172.31.58.242:/home/ubuntu/index.txt /home/ubuntu
+ 
+
+       

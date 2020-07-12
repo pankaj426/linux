@@ -1,0 +1,29 @@
+
+
+class computer:
+
+    def __init__(self):
+        self.name="pankaj"
+        self.age=23
+
+    def update(self):
+        name="pankaj2"
+        age=28
+
+
+
+
+c1=computer()
+c2=computer()
+
+c1.update()
+
+print(c1.age,c1.name)
+
+
+
+
+
+
+
+

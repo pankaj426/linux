@@ -1,0 +1,47 @@
+ATOM install
+    
+$ sudo add-apt-repository ppa:webupd8team/atom
+$ sudo apt-get update
+$ sudo apt-get install atom
+
+
+
+
+
+postgress
+
+
+POSTGRESQL is an open-source, full-featured relational database.PostgreSQL is the most advanced open source relational database, MySQL did not have triggers, PostgreSQL did.
+In this tutorial we will see How to Install PostgreSQL 9.6 on Ubuntu 16.04 LTS. The same procedure can be used for installing PostgreSQL 9.6 on Ubuntu 14.04 LTS.
+
+Step 1: Install PostgreSQL
+
+$ sudo apt-get update
+$ sudo apt-get install postgresql postgresql-contrib
+
+Step 2: Connecting to PostgreSQL
+
+Ather the installation of PostgreSQL a user account called postgres created that is associated with the default Postgres role. In order log into to use Postgres account, we nee to give following command:
+
+
+$ sudo su - postgres
+$ psql
+
+
+
+ ls /etc/postgresql/9.3/main/
+
+
+
+
+psql
+\l
+\du
+ ALTER USER postgres WITH PASSWORD 'pankaj@123';
+ CREATE USER user1 WITH PASSWORD 'pankaj@123';
+ALTER USER user1 WITH SUPERUSER
+CREATE USER user2 WITH PASSWORD 'pankaj@123';
+ DROP USER user2
+
+\du
+man psql

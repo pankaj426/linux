@@ -1,0 +1,54 @@
+ sudo chmod 777 hello.sh
+   35  sudo chmod 777 pankaj.sh
+   36  cd .
+   37  code .
+   38  vi hello.sh
+   39  sudo ./hello.sh
+   40  ./hello.sh
+   41  ./pankaj.sh
+
+
+
+#! /bin/bash
+
+echo helloword
+name=pankaj
+echo $name
+echo $BASH
+echo $BASH_VERSION
+~
+
+
+
+
+#! /bin/bash
+
+echo "enter name : "
+read name1 name2 name3
+echo "enter name : $name1,$name2,$name3"
+
+
+
+
+echo "enter name :"
+read -a name
+echo "Name : ${name[0]},${name[1]}"
+
+
+
+
+
+
+echo "enter name :"
+read
+echo "Name : $REPLY"
+~
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+
+
+class computer:
+
+    def __init__(self):
+        self.name="pankaj"
+        self.age=23
+
+    def campare(self,c2):
+      if self.age==self.c2:
+          return True
+      else:
+          return False
+
+
+
+
+
+c1=computer()
+c2=computer()
+c1.age=30
+
+if c1.campare(c2):
+  print("same age")
+
+
+

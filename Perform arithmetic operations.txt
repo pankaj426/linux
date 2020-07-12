@@ -1,0 +1,25 @@
+#! /bin/bash
+
+num=10
+jum=23
+
+echo $((num + jum))
+echo $((num * jum))
+echo $((num - jum))
+echo $((num / jum))
+echo $((num % jum))
+
+~
+
+#! /bin/bash
+
+num=10
+jum=23
+
+echo $(expr $num + $ jum)
+echo $((num * jum))
+echo $((num - jum))
+echo $((num / jum))
+echo $((num % jum))
+
+~

@@ -1,0 +1,16 @@
+
+
+class computer:
+
+    def config(self):
+        print("2gg","erd")
+
+    def her(self):
+        print("beats indj")
+
+
+com1=computer()
+com2=computer()
+
+com1.config()
+com1.her()

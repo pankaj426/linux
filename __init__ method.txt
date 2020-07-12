@@ -1,0 +1,18 @@
+
+
+class computer:
+
+    def __init__(self,cpu,pan):
+        self.cpu=cpu
+        self.pan=pan
+
+    def config(self):
+        print("feature",self.cpu,self.pan)
+
+
+
+
+com1=computer('i5',18)
+com2=computer('i3',26)
+
+com1.config()
