@@ -1,0 +1,98 @@
+ 1  cd
+    2  clear
+    3  ls
+    4  ll
+    5  cd/etc
+    6  cd /etc
+    7  ls
+    8  cd
+    9  ls /
+   10  pwd
+   11  ls -
+   12  ls -a
+   13  ls /home
+   14  cd ubuntu
+   15  cd home
+   16  cd /home
+   17  ls
+   18  cd ubuntu
+   19  ls
+   20  pwd
+   21  ls ../..
+   22  history
+   23  ls
+   24  cd ..
+   25  ls
+   26  cd ..
+   27  ls
+   28  pwd
+   29  ls -al
+   30  ls -lS
+   31  ls Documents/
+   32  cd /home/ubuntu
+   33  ls
+   34  pwd
+   35  ls -lS > out.txt
+   36  cat out.txt
+   37  ls
+   38  history
+   39  cd ../..
+   40  ls
+   41  ls -lS > /home/ubuntu/out.txt
+   42  cd /home/ubuntu
+   43  ls
+   44  cat out.txt
+   45  cd ../..
+   46  cd -
+   47  mkdir my books
+   48  cd mybooks
+   49  cd\mybooks
+   50  cd my\books
+   51  ls
+   52  cd books
+   53  cd ..
+   54  mkdir my\manisha
+   55  ls
+   56  mkdir 'pankaj jaiswal'
+   57  ls
+   58  cd pankaj\jaiswal
+   59  cd pankaj jaiswal
+   60  cd books/
+   61  ls
+   62  cd ..
+   63  ls
+   64  cat out.txt
+   65  cat
+   66  ls
+   67  ls -a
+   68  touch out.txt1
+   69  vi out.txt1
+   70  cat out.txt out.txt
+   71  cst -b out.txt1
+   72  cst -n out.txt1
+   73  cat -n out.txt1
+   74  cat -n out.txt
+   75  cat -b out.txt1
+   76  cat -s out.txt
+   77  cat -E out.txt1
+   78  man cat
+   79  history
+   80  cat test.txtx
+   81  cat >test.txt
+   82  cat test.txt
+   83  cat >> test.txt
+   84  cat test.txt
+   85  ls
+   86  cat test.txtx out.txt1 > pk.txtx
+   87  cat test.txtx out.txt1 > pk.txt
+   88  cat test.txtx out.txt1 > out.txt1
+   89  cat test.txt out.txt1 > pk.txt
+   90  cat pk.txt
+   91  out.txt1
+   92  cat out.txt1
+   93  cat test.txt
+   94  ls
+   95  mkdir my/bookd
+   96  mkdir -p name/mark
+   97  mkdir -p name/{tom, obo,jom}
+   

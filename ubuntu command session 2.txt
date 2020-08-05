@@ -1,0 +1,224 @@
+9:/# history
+    1  cd
+    2  clear
+    3  ls
+    4  ll
+    5  cd/etc
+    6  cd /etc
+    7  ls
+    8  cd
+    9  ls /
+   10  pwd
+   11  ls -
+   12  ls -a
+   13  ls /home
+   14  cd ubuntu
+   15  cd home
+   16  cd /home
+   17  ls
+   18  cd ubuntu
+   19  ls
+   20  pwd
+   21  ls ../..
+   22  history
+   23  ls
+   24  cd ..
+   25  ls
+   26  cd ..
+   27  ls
+   28  pwd
+   29  ls -al
+   30  ls -lS
+   31  ls Documents/
+   32  cd /home/ubuntu
+   33  ls
+   34  pwd
+   35  ls -lS > out.txt
+   36  cat out.txt
+   37  ls
+   38  history
+   39  cd ../..
+   40  ls
+   41  ls -lS > /home/ubuntu/out.txt
+   42  cd /home/ubuntu
+   43  ls
+   44  cat out.txt
+   45  cd ../..
+   46  cd -
+   47  mkdir my books
+   48  cd mybooks
+   49  cd\mybooks
+   50  cd my\books
+   51  ls
+   52  cd books
+   53  cd ..
+   54  mkdir my\manisha
+   55  ls
+   56  mkdir 'pankaj jaiswal'
+   57  ls
+   58  cd pankaj\jaiswal
+   59  cd pankaj jaiswal
+   60  cd books/
+   61  ls
+   62  cd ..
+   63  ls
+   64  cat out.txt
+   65  cat
+   66  ls
+   67  ls -a
+   68  touch out.txt1
+   69  vi out.txt1
+   70  cat out.txt out.txt
+   71  cst -b out.txt1
+   72  cst -n out.txt1
+   73  cat -n out.txt1
+   74  cat -n out.txt
+   75  cat -b out.txt1
+   76  cat -s out.txt
+   77  cat -E out.txt1
+   78  man cat
+   79  history
+   80  cat test.txtx
+   81  cat >test.txt
+   82  cat test.txt
+   83  cat >> test.txt
+   84  cat test.txt
+   85  ls
+   86  cat test.txtx out.txt1 > pk.txtx
+   87  cat test.txtx out.txt1 > pk.txt
+   88  cat test.txtx out.txt1 > out.txt1
+   89  cat test.txt out.txt1 > pk.txt
+   90  cat pk.txt
+   91  out.txt1
+   92  cat out.txt1
+   93  cat test.txt
+   94  ls
+   95  mkdir my/bookd
+   96  mkdir -p name/mark
+   97  mkdir -p name/{tom, obo,jom}
+   98  history
+   99  rmdir -option dirname
+  100  ls
+  101  cd name
+  102  ls
+  103  cd maek
+  104  ls
+  105  cd ..
+  106  ls -r
+  107  ls -R
+  108  rmdir name/mark/{tom,
+  109  rmdir -p ame/mark/{tom,
+  110  rmdir -p name
+  111  rmdir -R name
+  112  rmdir -pv name
+  113  mkdir -p a/b/c/d/e
+  114  cd a/b/
+  115  cat > abc.txt
+  116  cd ..
+  117  ls -R
+  118  rmdir -pv a/b/c/d
+  119  ls -R
+  120  rmdir -pv a/b/c/d/e
+  121  rm -r a/b/c/d/e
+  122  rm -rv a/b/c/d/e
+  123  ls -R
+  124  rm a/b
+  125  ls -R
+  126  rm -pv a/b
+  127  rm -rv a/b
+  128  COPTION SOURCE DESTINATION
+  129  cp out.txt file.txt
+  130  cat file.txt
+  131  cp file.txt my
+  132  cd my
+  133  ls
+  134  cd ..
+  135  cp file.txt out.txt my
+  136  cp -i file.txt out.txt my
+  137  cd name
+  138  ls
+  139  ls -a
+  140  cd
+  141  cd home/ubuntu
+  142  cd home
+  143  ls
+  144  cd -
+  145  cd ..
+  146  mv option source des
+  147  mv out.txt pk.txt
+  148  cd
+  149  cd /etc
+  150  ls
+  151  mkdir pk
+  152  cd ../..
+  153  cd -
+  154  top
+  155  history
+
+
+
+
+
+  10  nano file.txt
+   11  cd ../..
+   12  sudo mkdir /etc/pk.txt
+   13  apt-get install httpd -y
+   14  sudo su
+   15  pipof unity-control-centre
+   16  kill 3286
+   17  kil -KILL 3294
+   18  kill -KILL 3294
+   19  kill -9 3294
+   20  ps -ux
+   21  kill 21521
+   22  ps -ux
+   23  ps -aux
+   24  ls
+   25  history
+
+ echo pankaj
+   27  echo "hello wor '
+   28  myvar="mark"
+   29  echo $myvar
+   30  echo -e 'some\text'
+   31  echo -e 'same\ntext'
+   32  history
+
+  26  echo pankaj
+   27  echo "hello wor '
+   28  myvar="mark"
+   29  echo $myvar
+   30  echo -e 'some\text'
+   31  echo -e 'same\ntext'
+   32  history
+   33  ls -l
+   34  chmode o+X file.txt
+   35  chmod o+X file.txt
+   36  ls -l
+   37  sudo chmod o+X file.txt
+   38  ls -l
+   39  sudo chmod o+x pk.txt
+   40  ls -l
+   41  sudo chmod o+r pk.txt
+   42  sudo chmod o+w pk.txt
+   43  ls -l
+   44  sudo chmod g+x pk.txt
+   45  ls -l
+   46  sudo chmod 777 pk.txt
+   47  ls -l
+   48  sudo chmod ug=rwx pk.txt
+   49  chmod a-rwx pk.txt
+   50  sudo chmod a-rwx pk.txt
+   51  ls -l
+   52  chmod 777 pk.txt
+   53  sudo chmod 777 pk.txt
+  
+
+ which bash
+ ls -ld my
+   58  vi my.sh
+   59  ./my.sh
+   60  sudo chmod +x my.sh
+   61  ./my.sh
+
+
